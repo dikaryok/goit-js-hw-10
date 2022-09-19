@@ -15,8 +15,6 @@ const inputSearch = document.querySelector('input#search-box');
 
 inputSearch.addEventListener('input', debounce(inputValue, DEBOUNCE_DELAY));
 
-inputSearch.addEventListener('input', debounce(inputValue, DEBOUNCE_DELAY));
-
 function inputValue(e) {
   let value = e.target.value.trim();
   console.log(' value', value);
